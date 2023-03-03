@@ -74,6 +74,11 @@ main p {
 .duva_svity img{
     width: 20%;
 }
+.hobbi{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
 .hobbi article{
     display: flex;
     justify-content: space-around;
@@ -84,7 +89,14 @@ main p {
 .hobbi article img{
     height: 40%;
     width: 60%;
+    margin-left: 20%;
     border-radius: 35%;
     border: white double 4px;
     
+}
+.hobbi article h2 {
+    text-align: center;
+    width: 60%;
+    margin-left: 20%;
+
 }
