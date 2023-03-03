@@ -1,0 +1,90 @@
+body{
+    color: #602b7a;
+    margin: 0;
+    background-image: url("fon.png");
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-repeat: no-repeat;
+    -webkit-background-size: 100%;
+    -o-background-size: 100%;
+    -moz-background-size: 100%;
+    -ms-background-size: 100%;
+    -khtml-background-size: 100%;
+    background-size: 100% 100%;
+    font-weight: bold;
+}
+header div{
+    display: flex;
+}
+.icon{
+    width: 10%;
+}
+header,footer{
+    padding: 2%;
+    color: white;
+    background-color: #602b7a;
+    border-radius: 30%;
+    border: white double 4px;
+   
+}
+footer{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 2%;
+}
+header div h1{
+    text-align: center;
+    font-weight: bold;
+    margin-left: 25%;
+}
+main h1{
+    text-align: center;
+    padding-left: 12%;
+    border-bottom: #602b7a double 4px;
+}
+.sp{
+    display: flex;
+    justify-content: space-around;
+}
+ul{
+    font-size: 150%;
+    margin-left: 2%;
+    list-style-type: none;
+    background-color: white;
+    padding: 3%;
+    border: #602b7a double 4px;
+    border-radius: 30%;
+}
+.st1,.st2,.st3,.st4,.st5,.st6,.st7{
+    display: flex;
+    margin-top: 0.5%;
+    margin-bottom: 0.5%;
+}
+main p {
+    margin-left: 2%;
+    font-size: 100%;
+    text-align: center;
+    width: 60%;
+    margin-left: 20%;
+    
+}
+.duva_svity{
+    display: flex;
+    padding: 1%;
+}
+.duva_svity img{
+    width: 20%;
+}
+.hobbi article{
+    display: flex;
+    justify-content: space-around;
+    border-bottom: #602b7a 4px double;
+    width: 80%;
+    margin-left: 10%;
+}
+.hobbi article img{
+    height: 40%;
+    width: 60%;
+    border-radius: 35%;
+    border: white double 4px;
+    
+}
